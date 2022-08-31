@@ -8,12 +8,6 @@ void sort012(int arr[], int n) {
         temp[arr[i]]++;
     }
     
-    // for(int i = 0; i < 3; i++){
-    //     while(temp[i] != 0){
-    //         arr[i] = i;
-    //         temp[i]--;
-    //     }
-    // }
     int index = 0;
     for(int i = 0; i < temp[0]; i++){
         arr[index] = 0;

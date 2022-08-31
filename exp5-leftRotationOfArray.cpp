@@ -38,6 +38,11 @@ int main() {
     reverseArray(arr, 0, n);
     printArray(arr, n);
 
+    /*
+        Time complexity = O(n)
+        Space complexity = O(1)
+    */
+
 
     return 0;
 }
